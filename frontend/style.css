@@ -1,0 +1,37 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    background-image: url("./images/coverr.jpg");
+  
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .site_name{
+    position: fixed;
+    display:flex;
+    justify-content: center;
+    color: aliceblue;
+    font-family: cursive;
+    
+  }
+  
+  .tagline{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+  
+  }
+  
+  .underconstruction{
+    font-size: 50px;
+    border: solid 1px;
+    justify-content: end;
+  }
