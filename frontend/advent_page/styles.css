@@ -1,0 +1,22 @@
+body {
+  background-image: url(./img/banner.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    
+}
+main{
+  border: 3px solid;
+  padding: 10px 10px;
+  margin: 150px auto ;
+  color: black;
+  width: 50%;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+h1{
+  text-align: center;
+}
+.bg{
+  background-color: beige;
+}
