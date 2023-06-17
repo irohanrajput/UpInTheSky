@@ -141,6 +141,8 @@ body { background: var(--white); }
 
 
 .btn-primary { border-color: var(--white); }
+.btn-primary a { color: var(--white); }
+
 
 .btn-primary:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
 
