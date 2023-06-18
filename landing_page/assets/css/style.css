@@ -388,15 +388,17 @@ body { background: var(--white); }
 }
 
 .front-title { 
-  margin-bottom: 20px; 
+  margin-bottom: 50px; 
   font-size: 65px;
+  margin-top: -50px;
+  
 }
 
 .front-text {
   color: var(--white);
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 40px;
-  font-family:"#";
+  font-family:"cursive";
 }
 
 .btn-group {
@@ -917,7 +919,9 @@ address {
     padding-top: 85px;
   }
 
-  .front-text { --fs-5: 15px; }
+  .front-text { 
+    --fs-5: 15px; 
+  }
 
   .btn-group { gap: 20px; }
 

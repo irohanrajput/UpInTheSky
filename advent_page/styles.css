@@ -5,9 +5,10 @@ body {
   background-position: center;
   margin: 0;
   padding: 0;
+  
 }
 main{
-  padding: 10px 10px;
+  padding: 10px 10px ;
   margin: 150px auto ;
   color: black;
   width: 50%;
@@ -16,8 +17,17 @@ main{
   margin-top: 20px;
   font: bold;
   border: 2px solid;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  box-shadow: 10px 10px 10px black;
+  border-radius: 10px;
+  padding-left: 30px;
 
 }
+ main .z{
+  font-family:"Georgia";
+  margin-bottom: 20px;
+ }
 h1{
   text-align: center;
 }
