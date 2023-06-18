@@ -142,14 +142,14 @@ body { background: var(--white); }
 
 .btn-primary { border-color: var(--white); }
 .btn-primary a { color: var(--white); }
-
-
 .btn-primary:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
 
 
-.btn-secondary { border-color: var(--white); }
 
+.btn-secondary { border-color: var(--white); }
 .btn-secondary:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
+.btn-secondary a { color: var(--white); }
+
 
 .h1,
 .h2,
