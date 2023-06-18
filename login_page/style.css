@@ -17,6 +17,12 @@ body {
     flex-direction: column;
     gap: 30px;
     background-color: rgb(231, 231, 231);
+    background-image: url(imagess/login1.jpeg);
+    background-repeat: no-repeat; 
+    background-size:cover;
+    width: 100%;
+    
+    
 }
  
 header {
