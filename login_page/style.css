@@ -73,7 +73,7 @@ header {
     border-radius: 50px;
     background-image: linear-gradient(to right,
             rgb(255, 195, 110),
-            rgb(255, 146, 91));
+            rgb(255, 255, 255));
     position: absolute;
     top: 20px;
     left: 100px;
