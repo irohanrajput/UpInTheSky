@@ -1,0 +1,96 @@
+* {
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box;
+    list-style-type: none;
+    text-decoration: none;
+    outline:none; 
+    border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+*::selection {
+    background:var(--main-color); 
+    color:#fff;
+}
+html {
+    font-size:62.5%;
+    overflow-x:hidden;
+    scroll-padding-top:6rem;
+    scroll-behavior: smooth;
+}
+body { 
+    font-family: 'Nunito', sans-serif;
+    height:2000px;
+}
+
+button,input[type="submit"] {
+    cursor:pointer; 
+}
+section {
+    padding:2rem 9%;
+}
+.btn {
+    display:inline-block;
+    margin-top:1rem;
+    background: var(--main-color);
+    color:#fff;
+    padding:.8rem 3rem;
+    border:.2rem solid var(--main-color);
+    cursor:pointer;
+    font-size:1.7rem;
+}
+.btn:hover {
+    background: rgba(255, 165, 0,0.2);
+    color:var(--main-color);
+}
+.heading {
+    text-align: center;
+    padding:2.5rem 0;
+    /* margin-bottom: 100px; */
+}
+.heading span {
+    font-size: 4.5rem;
+    background: rgba(255,165,0,.5);
+    color:var(--main-color);
+    border-radius: .5rem;
+    padding:.2rem 1rem;
+
+}
+.heading span.space {
+    background:none;
+}
+.book .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    align-items:center
+}
+.book .row .image {
+    flex:1 1 40rem;
+}
+.book .row .image img {
+    width:100%;
+}
+.book .row form {
+    flex:1 1 40rem;
+    padding:2rem; 
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+}
+.book .row form .inputBox {
+    padding:.5rem 0;
+}
+.book .row form .inputBox input {
+    width:100%;
+    padding:1rem;
+    border:.1rem solid rgba(0,0,0,.1); 
+    font-size:1.7rem;
+    color:#333;
+    text-transform: none ;
+}
+.book .row form .inputBox h3 {
+    font-size: 2rem;
+    padding:1rem 0;
+    color:#666;
+}
