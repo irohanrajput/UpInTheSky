@@ -12,11 +12,21 @@ main{
   color: black;
   width: 50%;
   max-width: 800px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 h1{
   text-align: center;
 }
 .bg{
   background-color: beige;
+}
+button{
+  display: block;
+  width: 20%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  border-radius: 20px;
+  border-color: white;
+  min-width: 200px;
 }
