@@ -387,12 +387,16 @@ body { background: var(--white); }
   padding-top: 125px;
 }
 
-.front-title { margin-bottom: 20px; }
+.front-title { 
+  margin-bottom: 20px; 
+  font-size: 65px;
+}
 
 .front-text {
   color: var(--white);
-  font-size: var(--fs-5);
+  font-size: 20px;
   margin-bottom: 40px;
+  font-family:"#";
 }
 
 .btn-group {
