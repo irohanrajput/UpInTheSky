@@ -1,184 +1,300 @@
-<!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Trip Planning Website</title>
-</head>
-<body></body>
-
-  <div class="top"><h1>Ready to turn your life upside down ??</h1></div>
-  <section class="book" id="book"></section>
-  <h1 class="heading">
-    <span>l</span>
-    <span>e</span>
-    <span>t</span>
-    <span>'s</span>
-    <span class="space"></span>
-    <span>s</span>
-    <span>t</span>
-    <span>a</span>
-    <span>r</span>
-    <span>t</span>
-    <span class="space"></span>
-    <span>f</span>
-    <span>l</span>
-    <span>y</span>
-    <span>i</span>
-    <span>n</span>
-    <span>g</span>
-</h1>
-<main>
-<!--surprise section starts-->
-<form action="#" method="post" id="MyForm">
-    <h2 class="z">tell us something about you</h2>
-    <br>
-    <div class="cl">
-    <h3>You Like</h3>
-    <div class="likes">
-        <input type="checkbox" id="dance" name="likes">
-        <label for="dance">To Dance</label>
-      </div>
-      <div class="likes">
-        <input type="checkbox" id="singing" name="likes">
-        <label for="singing">To Sing / Enjoy Jamming Sessions</label>
-      </div>
-      <div class="likes">
-        <input type="checkbox" id="games" name="likes">
-        <label for="games">Games</label>
-      </div>
-      <div class="likes">
-        <input type="checkbox" id="other" name="likes">
-        <label for="other">Nahh!! I just want peace</label>
-      </div>
+  </head>
+  <body>
+    <div class="top">
+      <h1>Ready to turn your life upside down??</h1>
     </div>
-    <div class="cl">
-      <h3>You're okay with</h3>
-    <div class="dislikes">
-        <input type="checkbox" id="smoking" name="dislikes">
-        <label for="smoking">Smoking</label>
-      </div>
-      <div class="dislikes">
-        <input type="checkbox" id="drinking" name="dislikes">
-        <label for="drinking">Drinking</label>
-      </div>
-      <div class="dislikes">
-        <input type="checkbox" id="loud-music" name="dislikes">
-        <label for="loud-music">Loud-music</label>
-      </div>
-      <div class="dislikes">
-        <input type="checkbox" id="other" name="dislikes">
-        <label for="other">Others</label>
-      </div>
-    </div>
-    <div class="cl">
-      <h3>Enter Your Age Group:-</h3>
-      <div class="age-g">
-        <input type="radio" name="age-g" id="one">
-        <label for="one">18-25yrs</label>
-      </div>
-      <div class="age-g">
-        <input type="radio" name="age-g" id="two">
-        <label for="two">26-35yrs</label>
-      </div>
-      <div class="age-g">
-        <input type="radio" name="age-g" id="three">
-        <label for="three">36-45yrs</label>
-      </div>
-      <div class="age-g">
-        <input type="radio" name="age-g" id="four">
-        <label for="four">>45yrs</label>
-      </div>
-    </div>
-    <div class="cl">
-    <label id="location"><h3>This time you wanna see the:</h3>
-        <select id="location">
-            <option value="">Select an Option</option>
-            <option value="1">Mountains</option>
-            <option value="2">Beaches</option>
-            <option value="3">Monuments</option>
-            <option value="4">City tours</option>
-            <option value="5">adventurous trip</option>
-        </select>
-    </label>
-    </div>
-    <div class="cl">
-    <h3>Solo or You've got a group ??</h3>
-    <div class="solo">
-        <input type="radio" id="package" name="solo">
-        <label for="package">I'm not going solo, got a group</label>
-    </div>
-    <div class="solo">
-        <input type="radio" id="strangers" name="solo">
-        <label for="Want To Travel With Strangers">Yeah, I'll go Solo</label>
-    </div>
-    </div>
-    <div class="cl">
-    <h3>If Travelling Solo:-</h3>
-    <ul>
-      <li><h4>New People you want to meet should be:</h4>
-    <div class="category">
-        <input type="radio" id="common" name="category">
-        <label for="common">Like Minded</label>
-    </div></li>
-    <div class="category">
-        <input type="radio" id="not-common" name="category">
-        <label for="not-common">of opposite thinking</label>
-    </div>
-
-    <div class="category">
-      <input type="radio" id="dont-care" name="category">
-      <label for="dont-care">I don't care, Just connect me with new people</label>
-  </div>
-  
-
-    <li><h4>Do You Want To Be a Part Of Whatsapp Group?</h4></li>
-    <div class="group">
-      <input type="checkbox" id="yes" name="group">
-      <label for="yes">Yes</label>
-    </div>
-    <div class="group">
-      <input type="checkbox" id="no" name="group">
-      <label for="yes">No</label>
-    </div></ul></div>
-    <div class="cl">
-    <div class="team"><h3>If Travelling With Someone:</h3>
-        <label for="figure">Enter Team Size: <input id="figure" name="figure" type="number" min="0" max="10"></label>
-    </div></div>
-    <div class="cl">
-    <h3>How much You're willing to pay for this Adventure</h3>
-    <div class="budget">
-      <input type="radio" id="one" name="budget">
-      <label for="one">5k-10k</label>
-    </div>
-    <div class="budget">
-      <input type="radio" id="two" name="budget">
-      <label for="two">10k-15k</label>
-    </div><div class="budget">
-      <input type="radio" id="three" name="budget">
-      <label for="one">15k-20k</label>
-    </div>
-    <div class="budget">
-      <input type="radio" id="four" name="budget">
-      <label for="other">20k-50k</label>
-    </div>
-    <div class="budget">
-      <input type="radio" id="rich" name="budget">
-      <label for="other">Whatever, I'm rich :D</label>
-    </div>
-    </div>
-    <input type="submit" value="Submit" />
-    <p>if the site doesn’t resond, kindly <a href="https://forms.gle/tnwvuqdVdk4w8nxE9"> click here</p></a>
+    <section class="book" id="book"></section>
+    <h1 class="heading">
+      <span>l</span>
+      <span>e</span>
+      <span>t</span>
+      <span>'s</span>
+      <span class="space"></span>
+      <span>s</span>
+      <span>t</span>
+      <span>a</span>
+      <span>r</span>
+      <span>t</span>
+      <span class="space"></span>
+      <span>f</span>
+      <span>l</span>
+      <span>y</span>
+      <span>i</span>
+      <span>n</span>
+      <span>g</span>
+    </h1>
+    <main>
+      <form action="#" method="post" id="MyForm">
+        <h2 class="z">Tell us something about you</h2>
+        <br />
+        <div class="cl">
+          <h3>You Like</h3>
+          <div class="likes">
+            <input type="checkbox" id="dance" name="likes" />
+            <label for="dance">To Dance</label>
+          </div>
+          <div class="likes">
+            <input type="checkbox" id="singing" name="likes" />
+            <label for="singing">To Sing / Enjoy Jamming Sessions</label>
+          </div>
+          <div class="likes">
+            <input type="checkbox" id="games" name="likes" />
+            <label for="games">Games</label>
+          </div>
+          <div class="likes">
+            <input type="checkbox" id="peace" name="likes" />
+            <label for="peace">Nahh!! I just want peace</label>
+          </div>
+        </div>
+        <div class="cl">
+          <label for="days">
+            <h3>How many days you wanna spend on this trip?</h3>
+          </label>
+          <input type="number" id="days" name="days" min="1" max="30" />
+        </div>
+        <div class="cl">
+          <label for="destination">
+            <h3>Enter destination</h3>
+            <input type="text" id="destination" name="destination" />
+          </label>
+          <label for="source">
+            <h3>Enter source</h3>
+            <input type="text" id="source" name="source" />
+          </label>
+        </div>
+        <div class="cl">
+          <h3>You're okay with</h3>
+          <div class="dislikes">
+            <input type="checkbox" id="smoking" name="dislikes" />
+            <label for="smoking">Smoking</label>
+          </div>
+          <div class="dislikes">
+            <input type="checkbox" id="drinking" name="dislikes" />
+            <label for "drinking">Drinking</label>
+          </div>
+          <div class="dislikes">
+            <input type="checkbox" id="loud-music" name="dislikes" />
+            <label for="loud-music">Loud-music</label>
+          </div>
+          <div class="dislikes">
+            <input type="checkbox" id="other-dislike" name="dislikes" />
+            <label for="other-dislike">Others</label>
+          </div>
+        </div>
+        <div class="cl">
+          <h3>Enter Your Age Group:-</h3>
+          <div class="age-g">
+            <input type="radio" name="age-group" id="age-one" />
+            <label for="age-one">18-25yrs</label>
+          </div>
+          <div class="age-g">
+            <input type="radio" name="age-group" id="age-two" />
+            <label for="age-two">26-35yrs</label>
+          </div>
+          <div class="age-g">
+            <input type="radio" name="age-group" id="age-three" />
+            <label for="age-three">36-45yrs</label>
+          </div>
+          <div class="age-g">
+            <input type="radio" name="age-group" id="age-four" />
+            <label for="age-four">>45yrs</label>
+          </div>
+        </div>
+        <div class="cl">
+          <label for="trip-location">
+            <h3>This time you wanna see:</h3>
+            <select id="trip-location" name="location">
+              <option value="">Select an Option</option>
+              <option value="Mountains">Mountains</option>
+              <option value="Beaches">Beaches</option>
+              <option value="Monuments">Monuments</option>
+              <option value="CityTours">City tours</option>
+              <option value="AdventurousTrip">Adventurous trip</option>
+            </select>
+          </label>
+        </div>
+        <div class="cl">
+          //create a checkbox for activities
+          <h3>What activities you want to do?</h3>
+          <div class="activities">
+            <input type="checkbox" id="trekking" name="activities" />
+            <label for="trekking">Trekking</label>
+            <input type="checkbox" id="rafting" name="activities" />
+            <label for="rafting">Rafting</label>
+            <input type="checkbox" id="paragliding" name="activities" />
+            <label for="paragliding">Paragliding</label>
+            <input type="checkbox" id="bungee-jumping" name="activities" />
+            <label for="bungee-jumping">Bungee Jumping</label>
+        </div>
+        <div class="cl">
+          <h3>Solo or You've got a group ??</h3>
+          <div class="solo">
+            <input type="radio" id="solo-package" name="solo" />
+            <label for="solo-package">I'm not going solo, got a group</label>
+          </div>
+          <div class="solo">
+            <input type="radio" id="solo-strangers" name="solo" />
+            <label for="solo-strangers">Yeah, I'll go Solo</label>
+          </div>
+        </div>
+        <div class="cl">
+          <h3>If Traveling Solo:</h3>
+          <ul>
+            <li>
+              <h4>New People you want to meet should be:</h4>
+              <div class="category">
+                <input type="radio" id="common-mind" name="category" />
+                <label for="common-mind">Like Minded</label>
+              </div>
+            </li>
+            <li>
+              <div class="category">
+                <input type="radio" id="opposite-mind" name="category" />
+                <label for="opposite-mind">of opposite thinking</label>
+              </div>
+            </li>
+            <li>
+              <div class="category">
+                <input type="radio" id="dont-care-mind" name="category" />
+                <label for="dont-care-mind"
+                  >I don't care, Just connect me with new people</label
+                >
+              </div>
+            </li>
+            <li>
+              <h4>Do You Want To Be a Part Of Whatsapp Group?</h4>
+              <div class="group">
+                <input type="checkbox" id="whatsapp-yes" name="group" />
+                <label for="whatsapp-yes">Yes</label>
+              </div>
+              <div class="group">
+                <input type="checkbox" id="whatsapp-no" name="group" />
+                <label for="whatsapp-no">No</label>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="cl">
+          <div class="team">
+            <h3>If Traveling With Someone:</h3>
+            <label for="team-size">Enter Team Size:</label>
+            <input
+              id="team-size"
+              name="figure"
+              type="number"
+              min="0"
+              max="10"
+            />
+          </div>
+        </div>
+        <div class="cl">
+          <h3>How much You're willing to pay for this Adventure</h3>
+          <div class="budget">
+            <input type="radio" id="budget-one" name="budget" />
+            <label for="budget-one">5k-10k</label>
+          </div>
+          <div class="budget">
+            <input type="radio" id="budget-two" name="budget" />
+            <label for="budget-two">10k-15k</label>
+          </div>
+          <div class="budget">
+            <input type="radio" id="budget-three" name="budget" />
+            <label for="budget-three">15k-20k</label>
+          </div>
+          <div class="budget">
+            <input type="radio" id="budget-four" name="budget" />
+            <label for="budget-four">20k-50k</label>
+          </div>
+          <div class="budget">
+            <input type="radio" id="budget-rich" name="budget" />
+            <label for="budget-rich">Whatever, I'm rich :D</label>
+          </div>
+        </div>
+        <input type="submit" value="Submit" id="submit-button" />
+        <p>
+          If the site doesn’t respond, kindly
+          <a href="https://forms.gle/tnwvuqdVdk4w8nxE9">click here</a>
+        </p>
       </form>
-  </main>
-<!-- 
-  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+    </main>
+    <section id="itinerary" class="itinerary">
+      <h2>Day-wise Itinerary</h2>
+    </section>
 
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+  const apiKey = "apikey";
+  const temperature = 0;
 
-  <script src="./fayar.js"></script> -->
+  const form = document.getElementById("MyForm");
 
-</body>
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    let days = document.getElementById("days").value;
+    let source = document.getElementById("source").value;
+    let destination = document.getElementById("destination").value;
+
+    let activitiesArray = [];
+    let activitiesList = document.getElementsByName("activities");
+    for (let i = 0; i < activitiesList.length; i++) {
+      if (activitiesList[i].checked) {
+        activitiesArray.push(activitiesList[i].nextElementSibling.textContent);
+      }
+    }
+
+    const activitiesListText = activitiesArray.join(", ");
+
+    const prompt = `I'm traveling to ${source}, from ${destination}, my trip is for ${days} days, give me a proper itinerary, I like ${activitiesListText} .`;
+
+    function generateItinerary() {
+      fetch("https://api.openai.com/v1/engines/davinci/completions", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${apiKey}`,
+        },
+        body: JSON.stringify({
+          prompt: prompt,
+          max_tokens: 2000, // Reduce the max_tokens value
+          temperature: temperature,
+        }),
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          console.log(data)
+          const itineraryText = data.choices[0].text;
+
+          const dayPattern = /Day \d+:([\s\S]*?)(?=(Day \d+|$))/g;
+          const itinerarySection = document.getElementById("itinerary");
+          let dayMatch;
+          let dayNumber = 1;
+
+          while ((dayMatch = dayPattern.exec(itineraryText)) !== null) {
+            const dayDescription = dayMatch[1].trim();
+            const dayElement = document.createElement("div");
+            dayElement.innerHTML = `<h3>Day ${dayNumber}:</h3><p>${dayDescription}</p>`;
+            itinerarySection.appendChild(dayElement);
+            dayNumber++;
+          }
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+        });
+    }
+
+    generateItinerary();
+  });
+});
+
+    </script>
+  </body>
 </html>
